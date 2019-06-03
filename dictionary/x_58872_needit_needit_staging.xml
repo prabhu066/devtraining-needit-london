@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="needit_staging" max_length="40" name="x_58872_needit_needit_staging" type="collection">
+        <element attributes="import_attribute_name=priority,edge_encryption_enabled=true" label="priority" max_length="40" name="u_priority" type="string"/>
+        <element attributes="import_attribute_name=requested_for,edge_encryption_enabled=true" label="requested_for" max_length="40" name="u_requested_for" type="string"/>
+        <element attributes="import_attribute_name=requested_for_email,edge_encryption_enabled=true" label="requested_for_email" max_length="40" name="u_requested_for_email" type="string"/>
+        <element attributes="import_attribute_name=request_type,edge_encryption_enabled=true" label="request_type" max_length="40" name="u_request_type" type="string"/>
+        <element attributes="import_attribute_name=short_description,edge_encryption_enabled=true" label="short_description" max_length="40" name="u_short_description" type="string"/>
+        <element attributes="import_attribute_name=state,edge_encryption_enabled=true" label="state" max_length="40" name="u_state" type="string"/>
+        <element attributes="import_attribute_name=sys_class_name,edge_encryption_enabled=true" label="sys_class_name" max_length="40" name="u_sys_class_name" type="string"/>
+        <element attributes="import_attribute_name=what_needed,edge_encryption_enabled=true" label="what_needed" max_length="40" name="u_what_needed" type="string"/>
+    </element>
+</database>
