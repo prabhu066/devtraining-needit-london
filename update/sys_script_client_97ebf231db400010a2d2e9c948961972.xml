@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Submit Priority 1 Needit Task</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Submit Priority 1 Needit Task</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	 var pr = g_form.getValue ('priority');
+	if ( pr == 1){
+		return confirm(getMessage('Submit a Priority 1 NeedIt task?'));
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>prabhu</sys_created_by>
+        <sys_created_on>2019-09-23 11:15:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>97ebf231db400010a2d2e9c948961972</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Submit Priority 1 Needit Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_97ebf231db400010a2d2e9c948961972</sys_update_name>
+        <sys_updated_by>prabhu</sys_updated_by>
+        <sys_updated_on>2019-09-23 11:20:19</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
